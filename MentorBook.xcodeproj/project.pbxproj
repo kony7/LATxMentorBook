@@ -15,6 +15,10 @@
 		99A3E7DC25D90EE500B989F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E7DA25D90EE500B989F5 /* LaunchScreen.storyboard */; };
 		99A3E7E725D90EE600B989F5 /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3E7E625D90EE600B989F5 /* MentorBookTests.swift */; };
 		99A3E7F225D90EE600B989F5 /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3E7F125D90EE600B989F5 /* MentorBookUITests.swift */; };
+		99A3E80625D910C100B989F5 /* TT.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E80325D910C100B989F5 /* TT.png */; };
+		99A3E80725D910C100B989F5 /* See.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E80425D910C100B989F5 /* See.png */; };
+		99A3E80825D910C100B989F5 /* Kony.png in Resources */ = {isa = PBXBuildFile; fileRef = 99A3E80525D910C100B989F5 /* Kony.png */; };
+		99A3E80D25D9135C00B989F5 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3E80C25D9135C00B989F5 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		99A3E7ED25D90EE600B989F5 /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A3E7F125D90EE600B989F5 /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		99A3E7F325D90EE600B989F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A3E80325D910C100B989F5 /* TT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TT.png; sourceTree = "<group>"; };
+		99A3E80425D910C100B989F5 /* See.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = See.png; sourceTree = "<group>"; };
+		99A3E80525D910C100B989F5 /* Kony.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kony.png; sourceTree = "<group>"; };
+		99A3E80C25D9135C00B989F5 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		99A3E7C325D90EE400B989F5 = {
 			isa = PBXGroup;
 			children = (
+				99A3E80225D910C100B989F5 /* image */,
 				99A3E7CE25D90EE400B989F5 /* MentorBook */,
 				99A3E7E525D90EE600B989F5 /* MentorBookTests */,
 				99A3E7F025D90EE600B989F5 /* MentorBookUITests */,
@@ -106,6 +115,7 @@
 				99A3E7D825D90EE500B989F5 /* Assets.xcassets */,
 				99A3E7DA25D90EE500B989F5 /* LaunchScreen.storyboard */,
 				99A3E7DD25D90EE500B989F5 /* Info.plist */,
+				99A3E80C25D9135C00B989F5 /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -126,6 +136,16 @@
 				99A3E7F325D90EE600B989F5 /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		99A3E80225D910C100B989F5 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				99A3E80325D910C100B989F5 /* TT.png */,
+				99A3E80425D910C100B989F5 /* See.png */,
+				99A3E80525D910C100B989F5 /* Kony.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +251,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99A3E80825D910C100B989F5 /* Kony.png in Resources */,
 				99A3E7DC25D90EE500B989F5 /* LaunchScreen.storyboard in Resources */,
+				99A3E80725D910C100B989F5 /* See.png in Resources */,
+				99A3E80625D910C100B989F5 /* TT.png in Resources */,
 				99A3E7D925D90EE500B989F5 /* Assets.xcassets in Resources */,
 				99A3E7D725D90EE400B989F5 /* Main.storyboard in Resources */,
 			);
@@ -258,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99A3E80D25D9135C00B989F5 /* Mentor.swift in Sources */,
 				99A3E7D425D90EE400B989F5 /* ViewController.swift in Sources */,
 				99A3E7D025D90EE400B989F5 /* AppDelegate.swift in Sources */,
 				99A3E7D225D90EE400B989F5 /* SceneDelegate.swift in Sources */,
